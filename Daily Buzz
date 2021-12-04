@@ -1,0 +1,38 @@
+$ pwd
+/home/ccuser/workspace/daily-buzz
+$ ls 
+culture  health  national  technology
+$ cd national/politics
+$ ls
+policy
+$ ls -la
+total 8
+drwxr-xr-x 3 ccuser ccuser   37 Mar  2  2016 .
+drwxr-xr-x 3 ccuser ccuser   22 Feb 19  2016 ..
+-rw-r--r-- 1 ccuser ccuser 6148 Mar  2  2016 .DS_Store
+drwxr-xr-x 2 ccuser ccuser    6 Feb 19  2016 policy
+$ mkdir elections
+$ cd elections
+$ touch candidates.txt issues.txt
+$ ls
+candidates.txt  issues.txt
+$ cd ../../..
+$ pwd
+/home/ccuser/workspace/daily-buzz
+$ mkdir business
+$ cd business
+$ ls -la
+total 0
+drwxr-xr-x 2 ccuser ccuser  6 Oct 23 03:55 .
+drwxr-xr-x 7 ccuser ccuser 85 Oct 23 03:55 ..
+$ mkdir startups
+$ cd startups
+$ cd ..
+$ mkdir startups/disruptors
+$ touch staruos/disruptors/tech.txt design.txt education.txt
+touch: cannot touch 'staruos/disruptors/tech.txt': No such file or directory
+$ touch startups/disruptors/tech.txt design.txt education.txt
+$ cd ..
+$ pwd
+/home/ccuser/workspace/daily-buzz
+$ 
